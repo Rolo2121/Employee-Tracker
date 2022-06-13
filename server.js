@@ -29,15 +29,16 @@
 // });
 
 //======== Dependencies===================//
-const inquirer = require("inquirer")
-const mysql2 = require("mysql2")
+const inquirer = require("inquirer");
+const mysql2 = require("mysql2");
 const cTable = require('console.table');
+const express = require('express');
 
 const connection = mysql2.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "Nyaa2121!",
+    password: "password",
     database: "employees"
   });
 
